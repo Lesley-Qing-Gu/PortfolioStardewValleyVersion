@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesley Gu | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #000;
+            font-family: 'VT323', monospace;
+        }
+        canvas {
+            image-rendering: pixelated;
+        }
+        /* Custom Stardew dialogue box borders */
+        .pixel-border {
+            border: 4px solid #5a3a2a;
+            box-shadow: 
+                inset 4px 4px 0px #e6c58d,
+                inset -4px -4px 0px #8b6b4e;
+            background: #d4a76a;
+        }
+        .text-pixel {
+            text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+        }
+        
+        /* Disable text shadows */
+        .no-shadow, .no-shadow * {
+            text-shadow: none !important;
+        }
+
+        /* Stardew Interior Wood Plank Texture */
+        .wood-planks-wall {
+            background-color: #f7d4a1;
+            background-image: linear-gradient(90deg, rgba(90, 58, 42, 0.15) 1px, transparent 1px);
+            background-size: 48px 100%;
+        }
+
+        .wood-planks-floor {
+            background-color: #a66b3e;
+            background-image: 
+                linear-gradient(0deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+            background-size: 64px 64px;
+        }
+
+        @keyframes fade-in {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .animate-fade-in {
+            animation: fade-in 0.2s ease-out forwards;
+        }
+        
+        @keyframes bounce-in {
+            0% { transform: scale(0.3) translateY(-100px); opacity: 0; }
+            70% { transform: scale(1.05) translateY(10px); }
+            100% { transform: scale(1) translateY(0); opacity: 1; }
+        }
+        .animate-bounce-in {
+            animation: bounce-in 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+        }
+
+        @keyframes pulse-slow {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+        .animate-pulse-slow {
+            animation: pulse-slow 3s infinite ease-in-out;
+        }
+
+        .scrollbar-hide {
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
