@@ -6,7 +6,9 @@ An interactive pixel-art portfolio inspired by Stardew Valley. Explore different
 
 ## 📸 Preview
 
-![Portfolio Preview](./LesleyGu.png)
+![Screenshot 1](./Screenshot1.png)
+![Screenshot 2](./Screenshot2.png)
+![Screenshot 3](./Screenshot3.png)
 
 ## ✨ Features
 
