@@ -24,41 +24,12 @@ An interactive pixel-art portfolio inspired by Stardew Valley. Explore different
 - **Vite** - Build tool and dev server
 - **CSS3** - Styling and animations
 
-## 🚀 Run Locally
-
-**Prerequisites:** Node.js (v18 or higher)
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Lesley-Qing-Gu/PortfolioStardewValleyVersion.git
-   cd PortfolioStardewValleyVersion
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Open your browser and visit `http://localhost:5173`
-
 ## 🎮 Controls
 
 - **WASD / Arrow Keys** - Move character
 - **E / Enter / Space** - Interact with buildings
 - **ESC** - Exit building or close modal
 - **Click** - Navigate to location
-
-## 📦 Build for Production
-
-```bash
-npm run build
-npm run preview
-```
 
 ## 📝 License
 
