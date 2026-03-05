@@ -1,20 +1,71 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎮 Pixel Portfolio - Stardew Valley Style
 
-# Run and deploy your AI Studio app
+一个受《星露谷物语》启发的互动式像素风格作品集网站。通过探索不同的建筑来发现我的项目和作品。
 
-This contains everything you need to run your app locally.
+An interactive pixel-art portfolio inspired by Stardew Valley. Explore different buildings to discover my projects and works.
 
-View your app in AI Studio: https://ai.studio/apps/drive/19JZiRqYcvxuBf7rsSIeCcjZlDUvBZoX4
+## 📸 Preview
 
-## Run Locally
+![Portfolio Preview](./LesleyGu.png)
 
-**Prerequisites:**  Node.js
+## ✨ Features
 
+- 🎨 Pixel art style with retro gaming aesthetics
+- 🌍 Multi-language support (English, 中文, Svenska)
+- 🎮 Interactive character movement (WASD/Arrow keys)
+- 🏠 Multiple project categories housed in different buildings
+- ⌨️ Keyboard controls for navigation
+- 🎭 Smooth scene transitions and animations
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+
+- **React 19** - UI framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool and dev server
+- **CSS3** - Styling and animations
+
+## 🚀 Run Locally
+
+**Prerequisites:** Node.js (v18 or higher)
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Lesley-Qing-Gu/PortfolioStardewValleyVersion.git
+   cd PortfolioStardewValleyVersion
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit `http://localhost:5173`
+
+## 🎮 Controls
+
+- **WASD / Arrow Keys** - Move character
+- **E / Enter / Space** - Interact with buildings
+- **ESC** - Exit building or close modal
+- **Click** - Navigate to location
+
+## 📦 Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+## 📝 License
+
+MIT License - feel free to use this project for your own portfolio!
+
+## 👤 Author
+
+**Lesley Gu (顾清)**
+
+- GitHub: [@Lesley-Qing-Gu](https://github.com/Lesley-Qing-Gu)
